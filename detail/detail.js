@@ -5,13 +5,12 @@ const dogDetailContainer = document.getElementById('dog-detail-container');
 
 
 // window.addEventListener('load', async () => {
-    // const params = new URLSearchParams(window.location.search);
-    // const id = params.get('id');
+//     const params = new URLSearchParams(window.location.search);
+//     const id = params.get('id');
 // 
-    // const dog = await getDog(id);
+//     const dog = await getDog(id);
 // 
-    // const dogDetailEl = renderDogDetail(dog);
-    // dogDetailContainer.append(dogDetailEl);
+//     dogDetailContainer.append(dogDetailEl);
 // });
 // on load
 // get the id from URL
