@@ -4,7 +4,7 @@ import { renderDogCard, renderDogDetail } from '../render-utils.js';
 const dogDetailContainer = document.getElementById('dog-detail-container');
 
 
-window.addEventListener('load', async() => {
+window.addEventListener('load', async () => {
     const params = new URLSearchParams(window.location.search);
     const id = params.get('id');
 
